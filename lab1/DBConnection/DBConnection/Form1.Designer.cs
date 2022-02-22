@@ -33,6 +33,7 @@ namespace DBConnection
             this.Menu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.MenuItemConnect = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuDisconnect = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuItemListConnect = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,12 +49,13 @@ namespace DBConnection
             this.Menu.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.Menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItemConnect,
-            this.MenuDisconnect});
+            this.MenuDisconnect,
+            this.MenuItemListConnect});
             this.Menu.Name = "contextMenuStrip1";
             this.Menu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.Menu.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Menu.ShowImageMargin = false;
-            this.Menu.Size = new System.Drawing.Size(187, 52);
+            this.Menu.Size = new System.Drawing.Size(187, 104);
             this.Menu.TabStop = true;
             this.Menu.Text = "Menu";
             // 
@@ -71,13 +73,23 @@ namespace DBConnection
             this.MenuDisconnect.Text = "Disconnect from DB";
             this.MenuDisconnect.Click += new System.EventHandler(this.MenuDisconnect_Click);
             // 
+            // MenuItemListConnect
+            // 
+            this.MenuItemListConnect.Name = "MenuItemListConnect";
+            this.MenuItemListConnect.Size = new System.Drawing.Size(186, 24);
+            this.MenuItemListConnect.Text = "List connection";
+            this.MenuItemListConnect.Click += new System.EventHandler(this.MenuItemListConnect_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ContextMenuStrip = this.Menu;
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DoubleBuffered = true;
+            this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.Name = "Form1";
             this.Text = "lab1";
             this.Menu.ResumeLayout(false);
@@ -89,6 +101,7 @@ namespace DBConnection
         private System.Windows.Forms.ContextMenuStrip Menu;
         private System.Windows.Forms.ToolStripMenuItem MenuItemConnect;
         private System.Windows.Forms.ToolStripMenuItem MenuDisconnect;
+        private System.Windows.Forms.ToolStripMenuItem MenuItemListConnect;
     }
 }
 
