@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapterWizard", "DataAdapterWizard\DataAdapterWizard.csproj", "{259F94C1-74B2-4A65-BF8E-B47F96326D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259F94C1-74B2-4A65-BF8E-B47F96326D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259F94C1-74B2-4A65-BF8E-B47F96326D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259F94C1-74B2-4A65-BF8E-B47F96326D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259F94C1-74B2-4A65-BF8E-B47F96326D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6779BD55-DBF4-4A32-8377-BEE7929F2D9B}
+	EndGlobalSection
+EndGlobal
