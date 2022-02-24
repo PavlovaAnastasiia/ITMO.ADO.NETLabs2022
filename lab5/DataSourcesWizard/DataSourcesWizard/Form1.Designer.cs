@@ -235,7 +235,7 @@ namespace DataSourcesWizard
             this.customersDataGridView.Name = "customersDataGridView";
             this.customersDataGridView.RowHeadersWidth = 51;
             this.customersDataGridView.RowTemplate.Height = 24;
-            this.customersDataGridView.Size = new System.Drawing.Size(800, 151);
+            this.customersDataGridView.Size = new System.Drawing.Size(800, 379);
             this.customersDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
