@@ -50,7 +50,7 @@ namespace DataViewExample
         {
             string selectedCustomerID = (string)CustomersGrid.SelectedCells[0].OwningRow.Cells["CustomerID"].Value;
             DataRowView selectedRow = customersDataView[customersDataView.Find(selectedCustomerID)];
-            ordersDataView = selectedRow.CreateChildView(northwindDataSet1.Relations["FK_Orders_Customers"]);
+            //ordersDataView = selectedRow.CreateChildView(northwindDataSet1.Relations["FK_Orders_Customers"]);
             OrdersGrid.DataSource = ordersDataView;
         }
     }

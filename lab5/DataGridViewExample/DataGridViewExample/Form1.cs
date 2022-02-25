@@ -63,13 +63,13 @@ namespace DataGridViewExample
             string CurrentCellInfo;
             CurrentCellInfo = customersDataGridView.CurrentCell.Value.ToString() + Environment.NewLine;
 
-            CurrentCellInfo += "Column: " + customersDataGridView.CurrentCell.OwningColumn.DataPropertyName 
+            CurrentCellInfo += "Column: " + customersDataGridView.CurrentCell.OwningColumn.DataPropertyName
             + Environment.NewLine;
 
-            CurrentCellInfo += "Column Index: " + customersDataGridView.CurrentCell.ColumnIndex.ToString() 
+            CurrentCellInfo += "Column Index: " + customersDataGridView.CurrentCell.ColumnIndex.ToString()
             + Environment.NewLine;
 
-            CurrentCellInfo += "Row Index: " + customersDataGridView.CurrentCell.RowIndex.ToString() 
+            CurrentCellInfo += "Row Index: " + customersDataGridView.CurrentCell.RowIndex.ToString()
             + Environment.NewLine;
 
             label1.Text = CurrentCellInfo;
